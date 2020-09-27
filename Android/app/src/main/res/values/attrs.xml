@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyboardView">
+        <attr name="keyBackground" format="reference"/>
+        <attr name="keyPreviewLayout" format="reference"/>
+        <attr name="keyPreviewOffset" format="dimension"/>
+        <attr name="keyPreviewHeight" format="dimension"/>
+        <attr name="labelTextSize" format="dimension"/>
+        <attr name="keyTextSize" format="dimension"/>
+        <attr name="keyTextColor" format="reference|color"/>
+        <attr name="verticalCorrection" format="dimension"/>
+        <attr name="popupLayout" format="reference"/>
+        <attr name="shadowColor" format="reference|color"/>
+        <attr name="shadowRadius" format="float"/>
+    </declare-styleable>
+</resources>

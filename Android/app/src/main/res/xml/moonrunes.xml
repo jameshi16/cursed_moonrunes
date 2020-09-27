@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="9%p"
+    android:keyHeight="50dp"
+    android:horizontalGap="1%p"
+    android:verticalGap="2dp">
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left" />
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="52" android:keyLabel="4"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+        <Key android:codes="48" android:keyLabel="0" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="113" android:keyLabel="Ɋ" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyLabel="山"/>
+        <Key android:codes="101" android:keyLabel="乇"/>
+        <Key android:codes="114" android:keyLabel="尺"/>
+        <Key android:codes="116" android:keyLabel="ㄒ"/>
+        <Key android:codes="121" android:keyLabel="ㄚ"/>
+        <Key android:codes="117" android:keyLabel="ㄩ"/>
+        <Key android:codes="105" android:keyLabel="丨"/>
+        <Key android:codes="111" android:keyLabel="ㄖ"/>
+        <Key android:codes="112" android:keyLabel="卩" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="97" android:horizontalGap="5%p" android:keyLabel="卂" android:keyEdgeFlags="left"/>
+        <Key android:codes="115" android:keyLabel="丂"/>
+        <Key android:codes="100" android:keyLabel="ᗪ"/>
+        <Key android:codes="102" android:keyLabel="千"/>
+        <Key android:codes="103" android:keyLabel="Ꮆ"/>
+        <Key android:codes="104" android:keyLabel="卄"/>
+        <Key android:codes="106" android:keyLabel="ﾌ"/>
+        <Key android:codes="107" android:keyLabel="Ҝ"/>
+        <Key android:codes="108" android:keyLabel="ㄥ" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="122" android:keyLabel="乙" android:horizontalGap="17%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="120" android:keyLabel="乂"/>
+        <Key android:codes="99" android:keyLabel="匚"/>
+        <Key android:codes="118" android:keyLabel="ᐯ"/>
+        <Key android:codes="98" android:keyLabel="乃"/>
+        <Key android:codes="110" android:keyLabel="几"/>
+        <Key android:codes="109" android:keyLabel="爪"/>
+        <Key android:codes="-5" android:keyLabel="DEL" android:keyWidth="12%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom" android:horizontalGap="1.6%p">
+        <Key android:codes="-2" android:keyLabel="abc" android:horizontalGap="0px" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="44" android:keyLabel="，" android:keyWidth="10%p"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:isRepeatable="true" android:keyWidth="40%p"/>
+        <Key android:codes="46" android:keyLabel="．" android:keyWidth="10%p"/>
+        <Key android:codes="-4" android:keyBackground="@color/colorKeyPrimary" android:keyLabel="DONE" android:keyWidth="18%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
